@@ -1,2 +1,2 @@
-FROM openjdk:11-ea-11-jdk
-ENTRYPOINT ["java","-jar","todomanagement.jar"]
+FROM httpd:2.4
+COPY . //usr/local/apache2/htdocs/
